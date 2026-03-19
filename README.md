@@ -3,7 +3,7 @@
 
 A terminal-based port of the classic Doom engine using the TUIX terminal UI library.
 
-This project runs the core gameplay entirely inside a terminal using TUIX. Certain optional subsystems—such as sound, joystick support and windowing—use SDL2 when available.
+This project runs the core gameplay entirely inside a terminal using [TUIX](https://github.com/custosh/tuix-core). Certain optional subsystems—such as sound, joystick support and windowing—use [SDL2](https://www.libsdl.org/) when available.
 
 ---
 
@@ -23,7 +23,7 @@ This project runs the core gameplay entirely inside a terminal using TUIX. Certa
 
 - C compiler (MSVC, GCC or Clang)
 - CMake (recommended build system)
-- Optional but recommended: `SDL2` (and `SDL2_mixer`, `SDL2_net`) for sound, joystick and networking
+-- Optional but recommended: [SDL2](https://www.libsdl.org/) (and `SDL2_mixer`, `SDL2_net`) for sound, joystick and networking
 - A POSIX-compatible terminal (or a capable Windows terminal emulator)
 
 If SDL2 is not available, the core terminal gameplay still works; optional features will be disabled.
@@ -95,13 +95,13 @@ Contributions are welcome. Please open issues for bugs or feature requests and s
 
 ## License
 
-This project is distributed under the GPL-2.0 license. The original Doom code belongs to id Software and is licensed under GPL-2.0 where applicable.
+This project is distributed under the GPL-2.0 license. The original Doom code belongs to id Software and is licensed under GPL-2.0 where applicable — see the original source at https://github.com/id-Software/DOOM.
 
 ---
 
 ## Acknowledgements
 
-- id Software — original Doom source
-- TUIX — terminal UI framework core
-- SDL2 — optional subsystems (audio, joystick, networking)
-- Chocolate Doom — original Chocolate Doom codebase used as the starting point for this port
+- id Software — original Doom source (https://github.com/id-Software/DOOM)
+- TUIX — terminal UI framework core (https://github.com/custosh/tuix-core)
+- SDL2 — optional subsystems (audio, joystick, networking) (https://www.libsdl.org/)
+- Chocolate Doom — original Chocolate Doom codebase used as the starting point for this port (https://github.com/chocolate-doom/chocolate-doom)
